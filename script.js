@@ -13,7 +13,14 @@ container.appendChild(second);
 const third = document.createElement('div');
 third.style.cssText = 'background-color: pink';
 third.style.cssText = 'border-color: black';
-third.setAttribute('div', 'divSmol');
-container.appendChild(third);
 
-const third-1
+
+const third1 = document.createElement('h1');
+third1.textContent = 'Hey, I am in a div!';
+third.appendChild(third1);
+
+const third2 = document.createElement('p');
+third2.textContent = 'me too!';
+third.appendChild(third2);
+
+container.appendChild(third);
